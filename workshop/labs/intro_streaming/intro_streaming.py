@@ -14,7 +14,7 @@ def get_streaming_response(prompt, streaming_callback):
     
     body = json.dumps({
         "anthropic_version": "bedrock-2023-05-31",
-        "max_tokens": 8000,
+        "max_tokens": 20,
         "temperature": 0,
         "messages": [
             {
@@ -27,11 +27,13 @@ def get_streaming_response(prompt, streaming_callback):
     response = bedrock.invoke_model_with_response_stream(modelId=bedrock_model_id, body=body) #invoke the streaming method
     
     for event in response.get('body'):
+        # print("Checking event ", event )
         chunk = json.loads(event['chunk']['bytes'])
-
+        # print("Checking typy", chunk['type'])
         if chunk['type'] == 'content_block_delta':
             if chunk['delta']['type'] == 'text_delta':
                 streaming_callback(chunk['delta']['text'])
+                # print("checking text", chunk['delta']['text'])
 
 prompt = "Tell me a story about two puppies and two kittens who became best friends:"
                 
