@@ -1,0 +1,83 @@
+🚀 Excited to share my latest learning from the Building with Amazon Bedrock and LangChain workshop!
+
+🌐 Introducing AWS Bedrock: Dive into the world of cloud-powered language processing with AWS Bedrock. It's a game-changer in the realm of Natural Language Processing (NLP), offering pre-trained Large Language Models (LLMs) accessible via API.
+
+🧠 Unlock the Power of Pre-Trained LLMs: With AWS Bedrock, you gain access to cutting-edge LLMs hosted on Amazon's servers. No need for high-spec CPUs or GPUs locally! All processing is handled by the Bedrock service, delivering fast and accurate results.
+
+💡 Additional Key Benefits of using AWS Bedrock
+
+Scalability: Seamlessly scale your NLP applications to meet growing demands.
+Security: Rest easy knowing your data is protected by robust AWS security measures.
+Cost Structure: Pay-as-you-go pricing ensures cost-efficiency for projects of any size.
+
+🌟 Embrace the Potential of NLP: Join the ranks of forward-thinking developers leveraging AWS Bedrock to build smarter, more efficient applications. Unleash the full potential of language processing with AWS at your fingertips!
+
+Check out the latest updates on GitHub.
+
+#AWS #Bedrock #NLP #CloudComputing #AI #Innovation #Developers #LanguageProcessing
+
+
+
+
+
+🚀 Continuing my journey with the Building with Amazon Bedrock and LangChain workshop! 🚀
+
+🌐 Excited to unveil my latest project: a chatbot powered by AWS Bedrock's and Large Language model "anthropic.claude-3-sonnet-20240229-v1:0" by Anthropic. With Bedrock and the Anthropic model at its core, my chatbot has elevated my learning experience and honed my skills on this exciting journey.
+
+🧠 Leveraging LangChain technology, my chatbot boasts the capability to maintain context and remember previous conversations, ensuring a seamless and immersive user experience. With a memory limit of up to 1024 tokens. (Note: Token limit adjusted for learning purposes and cost considerations.)
+
+🖥️ Streamlit serves as the sleek and intuitive front-end interface, making interactions with the chatbot effortless. Users can engage in natural conversations, receive personalized responses, and explore the possibilities of AI-driven communication.
+
+💡 Key Features:
+
+Anthropic Model: Access to AWS Bedrock's pre-trained model and cloud service make it easy to develop without expensive GPU power.
+LangChain Memory: The chatbot's contextual memory enhances conversation flow and user engagement, providing a truly immersive experience.
+Streamlit Interface: The user-friendly interface offers seamless navigation and interaction, catering to users of all backgrounds.
+
+🌟 Join me on this exciting journey of AI innovation where we develop and learn something new every day.
+
+Check out the code on GitHub: Link https://github.com/ZainZia0341/Amazon-Bedrock-and-LangChain/tree/main/workshop/labs/chatbot
+
+#AWS #Bedrock #Chatbot #AI #LangChain #Streamlit #ConversationalAI #Innovation #Technology #ArtificialIntelligence
+
+
+
+🚀 Continuing my journey with the Building with Amazon Bedrock and LangChain workshop! 🚀
+
+I'm excited to share my latest project: a chatbot with Retrieval-Augmented Generation (RAG) capabilities!
+
+🌐 Chatbot with RAG: By leveraging the power of AWS Bedrock and LangChain, I've developed a chatbot that seamlessly integrates retrieval-augmented generation for enhanced interactions. For this chatbot, I have used the anthropic.claude-3-sonnet-20240229-v1:0 model by Anthropic.
+
+🧠 Key Technologies Utilized:
+
+Streamlit: A sleek and intuitive front-end interface that makes interacting with the chatbot effortless.
+ConversationBufferWindowMemory from LangChain: Ensures the chatbot maintains context and remembers previous conversations, providing a seamless and immersive user experience.
+
+ConversationalRetrievalChain from LangChain.chains: Enhances the chatbot's ability to retrieve and generate contextually relevant information on-the-fly.
+
+PDF as Local RAG Source: Uses PDF documents as a source for retrieval-augmented generation, ensuring the chatbot has access to external information other than the information it was trained on. (A single document is used for demo purposes; other sources of information may be used depending on the scenario and use cases.)
+
+BedrockEmbeddings: Utilizes AWS Bedrock's powerful embeddings for accurate language understanding and processing.
+
+FAISS: Uses FAISS as an in-memory vector store for demo purposes (It uses RAM on the local system to store data for demo purposes. When creating an end-to-end project, ChromaDB or PineCone Vector Database will be used).
+
+RecursiveCharacterTextSplitter: Enables effective handling of large text documents by breaking them down into manageable chunks. Due to the token limits of the model and window size, a single large document cannot be passed directly into the model.
+
+Check out the code on GitHub: https://github.com/ZainZia0341/Amazon-Bedrock-and-LangChain/tree/main/workshop/labs/rag_chatbot
+
+#GeeksVisor #TeamGeeksVisor #AWS #Bedrock #Chatbot #AI #LangChain #Streamlit #ConversationalAI #RAG #Innovation #Technology #ArtificialIntelligence 
+
+
+
+
+
+
+
+AWS Bedrock
+
+chatbot simple
+
+chatbot with RAG
+
+difference between chatbot simple chatbot with RAG
+
