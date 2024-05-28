@@ -97,6 +97,104 @@ Check out my post on RAG Chatbot for more details: https://www.linkedin.com/post
 
 
 
+🚀 Building with Amazon Bedrock and LangChain: Exploring Image Manipulation with Amazon Titan Image Generator and Anthropic Claude 3 🌟
+
+I'm excited to share my journey through the world of image masking and painting with Amazon Titan Image Generator, AWS Bedrock, and Streamlit. Over the past few days, I've delved into several fascinating labs, learning and implementing state-of-the-art techniques in image processing and AI.
+
+Key Concepts:
+
+🔍 Masking:
+
+Image Mask: A special image file where black pixels indicate the masked area and white pixels mark what is not masked. These masks must be in PNG format, either RGB or grayscale, and should match the original image's dimensions and resolution.
+Mask Prompt: A dynamic way to mask an image using descriptive text. Titan Image Generator automatically creates a mask based on the prompt.
+
+🎨 Painting:
+
+Inpainting: Repainting all pixels within the masked area. Black pixels in the mask are repainted.
+Outpainting: Painting all pixels outside the masked area. White pixels in the mask are repainted, preserving the items indicated in the mask prompt.
+
+Topics I Have Covered:
+
+Lab M-1: Image Search
+
+Embedding Search: Created a searchable index of images using Titan Multimodal Embeddings and FAISS.
+Summary: Read image files, generated embeddings, and saved them to a FAISS database for efficient semantic search and retrieval.
+
+Lab M-2: Image Prompting
+
+Image Generation: Built a basic image generator using text prompts with Amazon Titan Image Generator.
+Summary: Generated images from text descriptions and transformed existing images based on new prompts.
+
+Lab M-3: Image Variation
+
+Image Variations: Created variations of existing images with Amazon Titan Image Generator.
+Summary: Generated alternative images with similar characteristics to the original image.
+
+Lab M-4: Masking Introduction
+
+Introduction to Masking: Learned the basics of image masking using both image masks and mask prompts.
+Summary: Created image masks indicating areas to be preserved or altered using black and white pixels.
+
+Lab M-5: Object Replacement or Removal
+
+Masking and Painting: Used masking techniques to identify objects for replacement or removal.
+Summary: Used inpainting techniques to repaint the identified areas, either replacing the object with new content or seamlessly removing it.
+
+Lab M-6: Background Replacement
+
+Outpainting: Implemented outpainting to replace the background of an image.
+Summary: Used default and precise outpainting modes to extend or preserve specific elements while changing the background.
+
+Lab M-7: Image Inpainting
+
+Inpainting with Masks: Focused on repainting areas within the masked region.
+Summary: Used black pixels in the mask to indicate areas that needed to be repainted, generating new content in those regions.
+
+Lab M-8: Image Extension
+
+Outpainting for Extension: Applied outpainting techniques to extend images.
+Summary: Programmatically resized images and generated masks to extend the content beyond the original boundaries.
+
+Lab M-9: Image Understanding
+
+Image Analysis: Used Anthropic Claude 3 for analyzing and understanding images.
+Summary: Provided prompts to describe what to analyze in the images, leveraging Claude's vision capabilities.
+
+Technologies Used:
+
+Streamlit: For creating a sleek and interactive front-end interface.
+AWS Bedrock: The backbone for managing and executing image processing tasks.
+Amazon Titan Image Generator v1: The powerful AI model behind all the image generation and manipulation tasks.
+Boto3: The AWS SDK for Python, used to interact with AWS Bedrock and Titan Image Generator.
+
+Looking forward to exploring more and building innovative solutions with these amazing technologies! 🚀✨
+
+#GeeksVisor #TeamGeeksVisor #AI #MachineLearning #AWS #Bedrock #TitanImageGenerator #Streamlit #ImageProcessing #ArtificialIntelligence
+
+
+
+🚀 Building a Multimodal Chatbot with Amazon Bedrock, Anthropic Claude 3, and Streamlit 🌟
+
+I'm thrilled to share my recent project where I built a multimodal chatbot using Amazon Bedrock, Anthropic Claude 3, and Streamlit. This chatbot not only understands text but can also interpret and discuss images, making interactions richer and more engaging.
+
+What is a Multimodal Chatbot?
+A multimodal chatbot can handle multiple types of input, such as text, images, audio, and video. In this project, I focused on integrating text and image understanding. Users can upload images or enter text, and the chatbot, powered by Anthropic Claude 3, responds intelligently to both.
+
+Key Features:
+Text and Image Input: The chatbot accepts both text messages and images, allowing for versatile interactions.
+State and Memory Management: Tracks chat history externally (up to 20 previous chats) to handle state, ensuring meaningful and context-aware conversations. (After 20 chats, previous history will be lost.)
+Streamlit Interface: Provides a sleek and interactive front-end interface for a seamless user experience.
+Technologies Used:
+AWS Bedrock: The backbone for the application, providing all the computational power for the AI model to work.
+Boto3: The AWS SDK for Python, used to interact with AWS Bedrock.
+Anthropic Claude 3: For understanding and generating responses to both text and image inputs.
+This experience has not only deepened my understanding of advanced AI techniques but also demonstrated the incredible potential of combining AWS Bedrock for practical applications in AI and image processing. 🚀✨
+
+Github Link : 
+
+#GeeksVisor #TeamGeeksVisor #AI #MachineLearning #AWS #Bedrock #Streamlit #AnthropicClaude #ImageProcessing #ArtificialIntelligence #multimodalChatBot #ChatBots
+
+
 AWS Bedrock
 
 chatbot simple
